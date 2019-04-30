@@ -2,7 +2,7 @@ Object          |  Messages
 -----------------------------
 Person          |
 
-Docking_station | release_bike      
+Docking_station | release_bike     
 
 Bike            | see_working_bike
 
