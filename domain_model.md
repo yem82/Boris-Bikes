@@ -1,6 +1,9 @@
-Object  |  Messages
+Object          |  Messages
 -----------------------------
-Person  | use_docking_station
-        | release_bike
-        |
-Person  | see_working_bike
+Person          |
+Docking_station | release_bike      
+Bike            | see_working_bike
+
+
+Bike <-- see_working_bike --> true/false
+Docking_station <-- release_bike --> a Bike
