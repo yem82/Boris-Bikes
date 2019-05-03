@@ -14,5 +14,6 @@ class DockingStation < Bike
 
   def release_bike
     fail 'No bikes avaliable' if @bikes.empty?
+    @bikes.pop
   end
 end
